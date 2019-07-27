@@ -5,6 +5,8 @@ compiler:
   - g++
 os:
   - linux
+before_install:
+  - chmod +x build.sh
 install:
   - sudo apt-get install cmake
 env:
