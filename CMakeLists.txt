@@ -34,4 +34,4 @@ string(TOUPPER ${CMAKE_BUILD_TYPE} BUILD_TYPE)
 message(STATUS "CXX_FLAGS = " ${CMAKE_CXX_FLAGS} " " ${CMAKE_CXX_FLAGS_${BUILD_TYPE}})
 
 # 添加子目录
-add_subdirectory(WebServer)
+add_subdirectory(Web_Server)
