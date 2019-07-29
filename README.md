@@ -19,10 +19,10 @@ C++编写的web服务器，借鉴了《muduo网络库》的思想；使用了Rea
     ./WebServer [-t thread_numbers] [-p port] (using default log_file_path ./WebServer.log)
 
 ## Architecture：
+
+[Architecture][1]
+
 ![Architecture](./images/Architecture.png)
-
-[架构详解][1]
-
 
 ## Technical Point:
 
@@ -45,7 +45,7 @@ C++编写的web服务器，借鉴了《muduo网络库》的思想；使用了Rea
 未来可以考虑补充的一些功能：
 
 - 实现一个内存池，进一步优化性能；
-- 添加缓存cache系统，加快访问速度；
+- 添加缓存`cache`系统，加快访问速度；
 - 使用`docker` 部署运行；
 - 对ssl 协议提供支持，实现`https `的访问。
 
@@ -60,4 +60,4 @@ https://github.com/viktorika/Webserver
     
 
 
-  [1]: ./architechure.md
+  [1]: ./architecture.md
