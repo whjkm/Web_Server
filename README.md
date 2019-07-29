@@ -21,6 +21,8 @@ C++编写的web服务器，借鉴了《muduo网络库》的思想；使用了Rea
 ## Architecture：
 ![Architecture](./images/Architecture.png)
 
+[架构详解][1]
+
 
 ## Technical Point:
 
@@ -48,7 +50,6 @@ C++编写的web服务器，借鉴了《muduo网络库》的思想；使用了Rea
 - 对ssl 协议提供支持，实现`https `的访问。
 
 ## References：
-
 https://github.com/linyacool/WebServer
 
 https://github.com/chenshuo/muduo
@@ -59,3 +60,4 @@ https://github.com/viktorika/Webserver
     
 
 
+  [1]: ./architechure.md
