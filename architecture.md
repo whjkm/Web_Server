@@ -1,5 +1,6 @@
 # Architecture:
 `I/O` 多路复用（事件分配器） + 非阻塞`I/O` + 主线程（处理请求）+ 工作线程（读、计算、写） + `eventloop`，即`Reactor`反应堆模式。
+
 ![Architecture](./images/Architecture.png)
 
 ## Reactor:
